@@ -1,0 +1,91 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "d5fd83ee-b112-4f03-9d7f-87d9bad99777",
+  "meta" : {
+    "lastUpdated" : "2022-05-07T15:41:09.910+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://fhirbender.github.io/mpd-box/ValueSet/prod-type-cs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "prod-type-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-prod-type-cs.html\">Product Types code system v1.0.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-prod-type-cs.html\"><code>https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhirbender.github.io-mpd-box-CodeSystem-prod-type-cs-IDMP-PhP\"> </a>  <a href=\"CodeSystem-prod-type-cs.html#prod-type-cs-IDMP_PhP\">IDMP_PhP</a></td><td>IDMP Pharmaceutical Product</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhirbender.github.io-mpd-box-CodeSystem-prod-type-cs-IDMP-MP\"> </a>  <a href=\"CodeSystem-prod-type-cs.html#prod-type-cs-IDMP_MP\">IDMP_MP</a></td><td>IDMP Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhirbender.github.io-mpd-box-CodeSystem-prod-type-cs-IDMP-PP\"> </a>  <a href=\"CodeSystem-prod-type-cs.html#prod-type-cs-IDMP_PP\">IDMP_PP</a></td><td>IDMP Packaged Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhirbender.github.io-mpd-box-CodeSystem-prod-type-cs-BE-MP\"> </a>  <a href=\"CodeSystem-prod-type-cs.html#prod-type-cs-BE_MP\">BE_MP</a></td><td>Belgian Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---fhirbender.github.io-mpd-box-CodeSystem-prod-type-cs-BE-VMP\"> </a>  <a href=\"CodeSystem-prod-type-cs.html#prod-type-cs-BE_VMP\">BE_VMP</a></td><td>Belgian Virtual Medicinal Product</td></tr></table></div>"
+      },
+      "url" : "https://fhirbender.github.io/mpd-box/ValueSet/prod-type-cs",
+      "version" : "1.0.0",
+      "name" : "ProductTypeVS",
+      "title" : "Product Types Value Set",
+      "status" : "active",
+      "date" : "2022-05-07T15:41:09+00:00",
+      "publisher" : "My Organization",
+      "contact" : [{
+        "name" : "My Organization",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://example.com/committees"
+        },
+        {
+          "system" : "email",
+          "value" : "my-group@example.com"
+        }]
+      },
+      {
+        "name" : "José Costa Teixeira",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "well.u.know@gmail.com",
+          "use" : "work"
+        }]
+      }],
+      "description" : "Product Types Value Set.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:760e16d4-d045-48ff-9d5d-b0e2cbdca269",
+        "timestamp" : "2022-05-07T15:41:27+00:00",
+        "total" : 5,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs",
+          "code" : "IDMP_PhP",
+          "display" : "IDMP Pharmaceutical Product"
+        },
+        {
+          "system" : "https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs",
+          "code" : "IDMP_MP",
+          "display" : "IDMP Medicinal Product"
+        },
+        {
+          "system" : "https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs",
+          "code" : "IDMP_PP",
+          "display" : "IDMP Packaged Medicinal Product"
+        },
+        {
+          "system" : "https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs",
+          "code" : "BE_MP",
+          "display" : "Belgian Medicinal Product"
+        },
+        {
+          "system" : "https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs",
+          "code" : "BE_VMP",
+          "display" : "Belgian Virtual Medicinal Product"
+        }]
+      }
+    }
+  }]
+}
