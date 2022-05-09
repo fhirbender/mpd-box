@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="d5fd83ee-b112-4f03-9d7f-87d9bad99777"/>
+  <id value="4016481c-7e09-408d-9c42-34e4a87f6cda"/>
   <meta>
-    <lastUpdated value="2022-05-07T15:41:09.910+00:00"/>
+    <lastUpdated value="2022-05-09T12:09:56.450+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -14,7 +14,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
+            <p>This value set contains 6 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-prod-type-cs.html">Product Types code system v1.0.0 (CodeSystem)</a>
             </p>
@@ -67,6 +67,13 @@
                 </td>
                 <td>Belgian Virtual Medicinal Product</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---fhirbender.github.io-mpd-box-CodeSystem-prod-type-cs-ePI"> </a>  
+                  <a href="CodeSystem-prod-type-cs.html#prod-type-cs-ePI">ePI</a>
+                </td>
+                <td>ePI</td>
+              </tr>
             </table>
           </div>
         </text>
@@ -75,7 +82,7 @@
         <name value="ProductTypeVS"/>
         <title value="Product Types Value Set"/>
         <status value="active"/>
-        <date value="2022-05-07T15:41:09+00:00"/>
+        <date value="2022-05-09T12:09:56+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -105,9 +112,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:760e16d4-d045-48ff-9d5d-b0e2cbdca269"/>
-          <timestamp value="2022-05-07T15:41:27+00:00"/>
-          <total value="5"/>
+          <identifier value="urn:uuid:020e8d27-540d-4204-8320-ff11b0f51957"/>
+          <timestamp value="2022-05-09T12:10:13+00:00"/>
+          <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -140,6 +147,11 @@
             <system value="https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs"/>
             <code value="BE_VMP"/>
             <display value="Belgian Virtual Medicinal Product"/>
+          </contains>
+          <contains>
+            <system value="https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs"/>
+            <code value="ePI"/>
+            <display value="ePI"/>
           </contains>
         </expansion>
       </ValueSet>

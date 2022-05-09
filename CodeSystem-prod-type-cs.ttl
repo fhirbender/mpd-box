@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "prod-type-cs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">IDMP_PhP<a name=\"prod-type-cs-IDMP_PhP\"> </a></td><td>IDMP Pharmaceutical Product</td></tr><tr><td style=\"white-space:nowrap\">IDMP_MP<a name=\"prod-type-cs-IDMP_MP\"> </a></td><td>IDMP Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">IDMP_PP<a name=\"prod-type-cs-IDMP_PP\"> </a></td><td>IDMP Packaged Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">BE_MP<a name=\"prod-type-cs-BE_MP\"> </a></td><td>Belgian Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">BE_VMP<a name=\"prod-type-cs-BE_VMP\"> </a></td><td>Belgian Virtual Medicinal Product</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">IDMP_PhP<a name=\"prod-type-cs-IDMP_PhP\"> </a></td><td>IDMP Pharmaceutical Product</td></tr><tr><td style=\"white-space:nowrap\">IDMP_MP<a name=\"prod-type-cs-IDMP_MP\"> </a></td><td>IDMP Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">IDMP_PP<a name=\"prod-type-cs-IDMP_PP\"> </a></td><td>IDMP Packaged Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">BE_MP<a name=\"prod-type-cs-BE_MP\"> </a></td><td>Belgian Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">BE_VMP<a name=\"prod-type-cs-BE_VMP\"> </a></td><td>Belgian Virtual Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">ePI<a name=\"prod-type-cs-ePI\"> </a></td><td>ePI</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "https://fhirbender.github.io/mpd-box/CodeSystem/prod-type-cs"];
   fhir:CodeSystem.version [ fhir:value "1.0.0"];
   fhir:CodeSystem.name [ fhir:value "ProductTypeCS"];
   fhir:CodeSystem.title [ fhir:value "Product Types code system"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-05-07T15:41:09+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-09T12:09:56+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "My Organization"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -52,7 +52,7 @@
      ]
   ];
   fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger];
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "IDMP_PhP" ];
@@ -73,6 +73,15 @@
      fhir:index 4;
      fhir:CodeSystem.concept.code [ fhir:value "BE_VMP" ];
      fhir:CodeSystem.concept.display [ fhir:value "Belgian Virtual Medicinal Product" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "ePI" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ePI" ];
+     fhir:CodeSystem.concept.property [
+       fhir:index 0;
+       fhir:CodeSystem.concept.property.code [ fhir:value "template" ];
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "{\"<>\":\"div\",\"id\":\"${resourceType}\",\"html\":[{\"<>\":\"table\",\"class\":\"table table-striped table-sm\",\"html\":[{\"<>\":\"thead\",\"html\":[{\"<>\":\"tr\",\"html\":[{\"<>\":\"th\",\"scope\":\"col\",\"html\":\"${resourceType}\"},{\"<>\":\"th\",\"scope\":\"col\",\"html\":\"\"}]}]},{\"<>\":\"tbody\",\"html\":[{\"<>\":\"tr\",\"html\":[{\"<>\":\"td\",\"style\":\"width: 90px;\",\"scope\":\"row\",\"html\":\"Name\"},{\"<>\":\"td\",\"html\":\"${synonym}\"}]},{\"<>\":\"tr\",\"html\":[{\"<>\":\"td\",\"scope\":\"row\",\"html\":\"Name\"},{\"<>\":\"td\",\"html\":\"${id}\"}]},{\"<>\":\"tr\",\"html\":[{\"<>\":\"td\",\"scope\":\"row\",\"html\":\"Name\"},{\"<>\":\"td\",\"html\":\"${status}\"}]}]}]}]}" ]
+     ]
   ] .
 
 # - ontology header ------------------------------------------------------------
